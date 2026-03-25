@@ -1,3 +1,13 @@
+:root {
+    --color-primary: #0a74da;
+    --color-secondary: #f45b69;
+    --color-accent: #2ed1a1;
+    --color-highlight: #fdc231;
+    --color-bg: rgba(255, 255, 255, 0.9);
+    --color-text: #1f2937;
+    --color-muted: #6b7280;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +15,10 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
+    color: var(--color-text);
+    background: radial-gradient(circle at top left, rgba(10, 116, 218, 0.3), transparent 45%), radial-gradient(circle at bottom right, rgba(244, 91, 105, 0.25), transparent 40%), #04172d;
 }
 
 .main {
@@ -31,7 +43,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: aquamarine;
+    color: var(--color-accent);
 }
 
 .top-section {
@@ -44,8 +56,10 @@ body {
 
 .logo {
     font-size: 2rem;
-    font-family: cursive;
+    font-family: 'Georgia', serif;
     cursor: pointer;
+    color: var(--color-primary);
+    letter-spacing: 0.05em;
 }
 
 .menu {
@@ -62,12 +76,19 @@ body {
 }
 
 .menu a {
-    color: white;
+    color: var(--color-bg);
+    background-color: var(--color-primary);
     text-decoration: none;
     font-weight: bold;
     padding: 0.6rem 1rem;
     border-radius: 0.4rem;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.menu a:hover,
+.menu a:focus-visible {
+    background-color: var(--color-secondary);
+    transform: translateY(-2px);
 }
 
 .menu a:hover,
@@ -84,7 +105,22 @@ body {
     border: 2px solid #ccc; /* Outer border for the whole component */
     border-radius: 0.4rem;
     overflow: hidden; /* Ensure rounded corners work */
-    background-color: white; /* White background for input area */
+    background-color: var(--color-bg);
+    border-color: var(--color-primary);
+}
+
+.searchbox input {
+    color: var(--color-text);
+}
+
+.searchbox button {
+    background-color: var(--color-accent);
+    color: #ffffff;
+}
+
+.searchbox button:hover,
+.searchbox button:focus-visible {
+    background-color: var(--color-secondary);
 }
 
 .searchbox input {
