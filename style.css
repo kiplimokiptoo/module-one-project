@@ -404,6 +404,60 @@ body {
     font-size: 1.05rem;
 }
 
+#search-results {
+    outline: 2px solid aquamarine;
+}
+
+#search-results h3 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.search-result-item {
+    background: rgba(127, 255, 212, 0.08);
+    border-left: 4px solid aquamarine;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+}
+
+.search-result-item h4 {
+    margin: 0 0 0.5rem 0;
+    color: #333;
+}
+
+.search-result-item h4 a {
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-result-item h4 a:hover {
+    text-decoration: underline;
+}
+
+.search-result-item p {
+    margin: 0.5rem 0;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.result-page {
+    font-size: 0.85rem;
+    color: #888;
+    font-style: italic;
+}
+
+.no-results {
+    text-align: center;
+    color: #999;
+    padding: 2rem 1rem;
+    font-size: 1rem;
+}
+
 @media (max-width: 768px) {
     .main {
         grid-template-rows: auto auto;
