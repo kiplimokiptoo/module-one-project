@@ -3,30 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Tutorial</title>
+    <title>Login - Web Tutorial</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="main">
-        <div class="top-section">
-            <div class="searchbox">
-                <input type="text" placeholder="Search...">
-                <button><i class="fas fa-search"></i></button>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Event</a></li>
-                    <li><a href="#">Vlog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="navbar">
-            <h2 class="logo">:) SMILEY </h2>
-        </div>
+    <div class="login-panel" style="margin: 5rem auto; max-width: 420px;">
+        <h3>Sign in first</h3>
+        <form class="login-form" action="home.html" method="GET">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+
+            <button type="submit" class="login-btn">Login</button>
+                <p class="login-note">No account? <a href="signup.html">Register here</a></p>
+        </form>
     </div>
 </body>
 </html>
