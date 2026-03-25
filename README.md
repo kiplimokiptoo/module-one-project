@@ -1,22 +1,22 @@
-# Project Title
+# Module-one Project
 
 ## Description
-A brief description of your project goes here.
+My goals and future accomplishments
 
 ## Installation
-Instructions on how to install and set up the project.
+It is deployed on the web.
 
 ## Usage
-Examples of how to use the project.
+Read trough the the webpages and feel free to reach out on the last web page
 
 ## Contributing
 Guidelines for contributing to the project.
 
 ## License
-Information about the project's license.
+There is no license on the project
 
 ## Contact
-Your contact information or links to your profile.
+kiplimo.kipoo@student.moringaschool.com
 
 ## Acknowledgements
-Credits to those who have contributed or helped with the project.
+Kiplimo Kiptoo is the only contributer to this project.
