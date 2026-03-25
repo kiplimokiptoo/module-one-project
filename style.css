@@ -1,0 +1,75 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url('switzer.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar{
+    width: 95%;
+    height: auto;
+    margin-left: 30px;
+}
+
+.logo{
+    color:aquamarine;
+    font-size: 40px;
+    font-family: cursive;
+    float: left;
+    padding-top: .6%;
+    cursor: pointer;
+}
+
+.menu{
+    width: 60opx;
+    height: 70px;
+    float: left;
+}
+
+ul{
+    float: left;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif, Arial, Helvetica;
+    font-weight: bold;
+}
