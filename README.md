@@ -13,7 +13,7 @@ Read trough the the webpages and feel free to reach out on the last web page
 Guidelines for contributing to the project.
 
 ## License
-There is no license on the project
+MIT License
 
 ## Contact
 kiplimo.kipoo@student.moringaschool.com
